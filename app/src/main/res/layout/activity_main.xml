@@ -37,4 +37,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="470dp"
+        tools:text="@tools:sample/cities" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="404dp"
+        tools:text="@tools:sample/date/day_of_week" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
